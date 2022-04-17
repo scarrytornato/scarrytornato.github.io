@@ -1,5 +1,12 @@
 /* create a css styles sheet for the index.html in this same folder */
 
+/* funky stuffs */
+@media screen and (max-width: 600px) {
+  .HideDesktop{
+    display: none;
+  }
+}
+
 /* Main name header */
 
 
