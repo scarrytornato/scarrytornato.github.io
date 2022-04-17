@@ -2,7 +2,7 @@
 
 /* funky stuffs */
 @media screen and (min-width: 600px) {
-  .HideDesktop{
+  h3.HideDesktop {
     display: none;
   }
 }
