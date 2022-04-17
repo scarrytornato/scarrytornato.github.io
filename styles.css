@@ -12,7 +12,9 @@ h1 {
   text-align: center;
   background-color: blanchedalmond;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 40px 0px
+  font-size: 10vw;
+  padding: 40px 0px;
+  margin: 0;
 }
 
 /* navigation bar */
