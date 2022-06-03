@@ -8,6 +8,10 @@
   }
 }
 
+* {
+  font-size: 105%;
+}
+
 /* Main name header */
 h1 {
   text-align: center;
