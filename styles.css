@@ -47,11 +47,31 @@ ul {
     background-color: rgb(99, 99, 99);
   }
 
+/* for large screens only */
+
   @media screen and (min-width: 600px) {
     li.rightalign {
       float: right;
     }
+
+    /* set margins for the main_content id to 10vw */
+    #main_content {
+      margin-left: 10vw;
+      margin-right: 10vw;
+      margin-top: 5vh;
+      /* set to a border with rounded edges */
+      border: 1px solid rgb(0, 173, 139);
+      border-radius: 10px;
+      padding-left: 1%;
+      padding-right: 1%;
+
+
+    }
+
   }
+
+
+  /* for small/phone screens */
 
   @media screen and (max-width: 600px) {
     ul {
@@ -63,6 +83,26 @@ ul {
     li a {
       display: block;
       text-align: center;
+    }
+
+    #main_content {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 5vh;
+      border: 1px solid rgb(0, 173, 139);
+      border-radius: 10px;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+    h1 {
+      padding: 2vw;
+      font-size: 13vw;
+    }
+
+    li a {
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
   }
 /* content */
