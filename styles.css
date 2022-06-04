@@ -59,6 +59,7 @@ ul {
       margin-left: 10vw;
       margin-right: 10vw;
       margin-top: 5vh;
+      margin-bottom: 5vh;
       /* set to a border with rounded edges */
       border: 1px solid rgb(0, 173, 139);
       border-radius: 10px;
